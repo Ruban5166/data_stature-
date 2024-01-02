@@ -1,6 +1,6 @@
 function fibonacci(n) {
     // Initialize an array with the first two numbers of the Fibonacci series
-    var fibSeries = [0, 1];
+    let fibSeries = [0, 1];
     
     // Continue adding Fibonacci numbers to the array until it reaches the desired length (n)
     while (fibSeries.length < n) {

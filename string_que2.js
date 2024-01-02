@@ -1,24 +1,26 @@
 let nonRepeatedletters = function(str){
 
     str = str.toLowerCase();
+    let notRebeted = [];
 
-    for(i = 0; i<str.length;i++){
+    for(let i = 0; i<str.length;i++){
         let isRepeat = false;
 
-        for(j = 0;j<str.length;j++){
+        for(let j = 0;j<str.length;j++){
             if(i!==j && str[i]== str[j]){
                 isRepeat = true;
                 break;
             }
         }
         if(!isRepeat){
-            return str[i];
+            notRebeted.push(str[i])
         }
     }
-
+    console.log(notRebeted.join(','));
     return null;
 }
 
-let str = nonRepeatedletters("malayalam")
 
-console.log(str);
+nonRepeatedletters("Srikishantharuban")
+
+//console.log(str);

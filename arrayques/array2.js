@@ -8,15 +8,15 @@ function percentageOfCharacters(s, letter) {
     }
   
  
-    const percentage = Math.floor((letterCount / s.length) * 100);
+    // const percentage = Math.floor((letterCount / s.length) * 100);
   
-    return percentage;
+    return letterCount;
   }
   
 
   const example1 = percentageOfCharacters("foobar", "o");
   console.log(example1); 
   
-  const example2 = percentageOfCharacters("jjjj", "k");
+  const example2 = percentageOfCharacters("jjasdfjjk", "k");
   console.log(example2); 
   

@@ -41,6 +41,7 @@ class DoublyLinkedList {
         }
     }
 
+    
     // Delete a node by value
     delete(value) {
         let current = this.head;

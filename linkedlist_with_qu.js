@@ -96,7 +96,7 @@ class SingleLinkList{
 
         while(current){
             if(Targetvalue === current.data){
-            const newNode = new Node(data);
+            let newNode = new Node(data);
             newNode.next = current.next;
             current.next = newNode;
                 this.size++;

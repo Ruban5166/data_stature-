@@ -1,5 +1,5 @@
-const array = [1,2,3,4,5,6,7,8,9]
-let target = 8
+const array = [1,2,3,4,5,6,7,22,29]
+let target = 22
 let left =0;
 let right =array.length
 let mid;
